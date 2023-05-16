@@ -3,7 +3,12 @@
 // Description: Create prototpe code for specified requirments
 
 
-void login_page(std:string image_link, std::string username, std:string password);
+bool login_page(std:string image_link, std::string username, std:string password){
+//if they match 
+	return true;
+//else
+	return false;
+}
 
 class User{
 public:
@@ -13,10 +18,10 @@ public:
 	int balance;
 }
 
-int deposit(std::string username, std:string password, int amount){
+int deposit(bool logged_in, int amount){
 	return int balance;
 }
 
-int withdraw(std::string username, std:string password, int amount){
+int withdraw(bool logged_in, int amount){
 	return int balance;
 }
